@@ -1,11 +1,11 @@
 <template>
   <div>
-    <h1>Enter a range</h1>
+    <h1>Введите промежуток</h1>
     <p v-if="random==='unspecified'">
-        Click the button <u>to get random number</u>
+        Нажмите кнопку <br><u> для получения рандомного числа</u>
     </p>
     <p v-else>
-        Random is <b>{{random}}</b>
+        Рандомное число - <b>{{random}}</b>
     </p>
     <p>
         <input v-model="input1" type="text">
@@ -13,7 +13,7 @@
         <input v-model="input2" type="text">
     </p>
     <p id="ranbomButton">
-        <a href="#" class="button" @click="getRandom()">Get random</a>
+        <a href="#" class="button" @click="getRandom()">Зарандомить</a>
     </p>
   </div>
 </template>
