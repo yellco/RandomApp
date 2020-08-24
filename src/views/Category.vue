@@ -2,6 +2,7 @@
   <div class="categoryBlock">
     <CategoryBlock text="Число" path="/number"/>
     <CategoryBlock text="В разработке" path="/number"/>
+    <CategoryBlock text="В разработке" path="/number"/>
   </div>
 </template>
 
@@ -18,6 +19,9 @@ export default {
 
 <style scoped lang="scss">
 .categoryBlock {
+    max-width: 1080px;
     display: flex;
+    justify-content: center;
+    margin: 0 auto;
 }
 </style>
